@@ -1,0 +1,42 @@
+
+maven安装jar到本地仓库
+
+
+mvn install:install-file  -Dfile=easydbo-0.9.1.jar  -DgroupId=com.easyjf  -DartifactId=easydbo -Dversion=0.9.1 -Dpackaging=jar
+mvn install:install-file  -Dfile=easyjf-jweb-0.9.0.jar  -DgroupId=com.easyjf  -DartifactId=jweb -Dversion=0.9.0 -Dpackaging=jar
+mvn install:install-file  -Dfile=QRCode.jar  -DgroupId=jp.sourceforge.qrcode  -DartifactId=qrcode -Dversion=0.0.1 -Dpackaging=jar
+mvn install:install-file  -Dfile=Qrcode_swetake.jar  -DgroupId=com.swetake  -DartifactId=Qrcode_swetake -Dversion=0.0.1 -Dpackaging=jar
+mvn install:install-file  -Dfile=IKAnalyzer3.2.8.jar  -DgroupId=org.wltea  -DartifactId=IKAnalyzer -Dversion=3.2.8 -Dpackaging=jar
+mvn install:install-file  -Dfile=rt.jar  -DgroupId=com.wemall  -DartifactId=rt -Dversion=1.7 -Dpackaging=jar
+mvn install:install-file  -Dfile=jce.jar  -DgroupId=com.wemall  -DartifactId=jce -Dversion=1.7 -Dpackaging=jar
+mvn install:install-file  -Dfile=memcached-2.5.jar  -DgroupId=spy  -DartifactId=memcached -Dversion=2.5 -Dpackaging=jar
+mvn install:install-file  -Dfile=hibernate-memcached-1.2.2.jar  -DgroupId=com.googlecode  -DartifactId=hibernate-memcached -Dversion=1.2.2 -Dpackaging=jar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

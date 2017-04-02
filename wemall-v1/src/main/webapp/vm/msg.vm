@@ -1,0 +1,1 @@
+$!{seller.userName}，您好，$!{buyer.userName}确认了订单$!{order.order_id}线下收货，详情请登录$!{webPath}卖家后台查看。$!{config.title}$!{send_time}

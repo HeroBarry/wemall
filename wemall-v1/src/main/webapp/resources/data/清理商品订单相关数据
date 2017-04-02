@@ -1,0 +1,26 @@
+SET foreign_key_checks = 0;
+delete from wemall_goods_spec;
+delete from wemall_goods_ugc;
+delete from wemall_goodscart;
+delete from wemall_cart_gsp;
+delete from wemall_favorite;
+delete from wemall_goods_combin;
+delete from wemall_group_goods;
+delete from wemall_delivery_goods;
+delete from wemall_dynamic;
+delete from wemall_bargain_goods;
+delete from wemall_goods_photo;
+delete from wemall_activity_goods;
+delete from wemall_evaluate;
+delete from wemall_return_gsp;
+delete from wemall_goods_returnitem;
+delete from wemall_ztc_gold_log;
+delete from wemall_goods_returnlog;
+delete from wemall_goods_return;
+delete from wemall_goods;
+
+delete from wemall_order_log;
+delete from wemall_orderform;
+delete from wemall_payment;
+
+SET foreign_key_checks = 1;
